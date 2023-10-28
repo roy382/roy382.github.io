@@ -65,7 +65,7 @@
         margin-bottom: 20px;
       }
 
-      .social-icons {
+      /*.social-icons {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -73,10 +73,26 @@
       }
 
       .social-icons a {
-        color: #333; /* Icon color */
+        color: #333; 
         text-decoration: none;
         transition: color 0.3s ease-in-out;
-      }
+      } */
+
+      .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling on overflow */
+  white-space: nowrap; /* Prevent line breaks in menu items */
+}
+
+.social-icons a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  padding: 5px; /* Add some padding to individual items */
+}
 
       .social-icons i {
         font-size: 24px;
